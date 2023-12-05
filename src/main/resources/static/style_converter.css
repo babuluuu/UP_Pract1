@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7897c2;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size:56px;
+    font-family: cursive;
+    color: #fff;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: cursive;
+    background:#694166;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    font-family: cursive;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    border: 8px solid #d0b0b0;
+    font-size:20px;
+    color:white;
+    background:#694166;
+
+}
+
+select {
+    padding: 5px;
+    border: 8px solid #d0b0b0;
+    font-size:20px;
+    color:white;
+    background:#694166;
+    border-radius: 5px;
+
+
+    margin-left: 10px;
+    font-family: cursive;
+}
+
+button {
+    border: 8px solid #d0b0b0;
+    font-size:20px;
+    color:white;
+    background:#694166;
+    padding: 5px 15px;
+    font-family: cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #707f90;
+    font-family: cursive;
+
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 10px;
+    font-size:40px;
+    color:#694166;
+    font-family: cursive;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size:35px;
+    color:white;
+}
+
+#result {
+    font-size: 50px;
+    font-family: cursive;
+    color: #007bff;
+
+}

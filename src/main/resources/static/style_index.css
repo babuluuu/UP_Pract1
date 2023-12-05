@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #515b76;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 78px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #d7e1f8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+input[type="text"],
+select {
+    width: 250px;
+    padding: 10px;
+    border: 5px solid #6b2666;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+button[type="submit"] {
+    background-color: #6b2666;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+button[type="submit"]:hover {
+    background-color: #b282b1;
+}
+
+.result-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f1f1;
+    padding: 20px;
+}
+
+.result-title {
+    font-size: 24px;
+    color: #7e2828;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.result-message {
+    font-size: 18px;
+    color: #955050;
+}
+
+.result-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #b697ba;
+    font-weight: bold;
+}
+
+.result-link:hover {
+    color: #ae98ba;
+}
+
+.error-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.error-title {
+    font-size: 24px;
+    color: #d9534f;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 18px;
+    color: #d9534f;
+}
+
+.error-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #b898b9;
+    font-weight: bold;
+}
+
+.error-link:hover {
+    color: #c1a5c7;
+}
